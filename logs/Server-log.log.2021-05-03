@@ -1,0 +1,51 @@
+[2021-05-02 22:42:01.069] [ INFO] [main] [com.luck.com.luck.util.LogFile:50] - setInfo: LastName: Li
+
+[2021-05-02 22:42:01.069] [ INFO] [main] [com.luck.SimpleKvDb:38] - recordLength: 14
+[2021-05-02 22:42:01.069] [ INFO] [main] [com.luck.com.luck.util.LogFile:30] - fileLinesLength: 141
+[2021-05-02 22:42:01.163] [ INFO] [main] [com.luck.com.luck.util.Util:11] - getInfo: Li
+[2021-05-02 22:42:58.687] [ INFO] [main] [com.luck.com.luck.util.LogFile:50] - setInfo: LastName: Li
+
+[2021-05-02 22:42:58.687] [ INFO] [main] [com.luck.SimpleKvDb:38] - recordLength: 14
+[2021-05-02 22:43:01.650] [ INFO] [main] [com.luck.com.luck.util.LogFile:30] - fileLinesLength: 155
+[2021-05-02 22:45:22.991] [ INFO] [main] [com.luck.com.luck.util.Util:11] - getInfo: Li
+[2021-05-02 22:46:23.436] [ INFO] [main] [com.luck.com.luck.util.LogFile:54] - setInfo: LastName: Li
+
+[2021-05-02 22:46:23.436] [ INFO] [main] [com.luck.SimpleKvDb:38] - recordLength: 14
+[2021-05-02 22:46:23.436] [ INFO] [main] [com.luck.com.luck.util.LogFile:34] - fileLinesLength: 12
+[2021-05-02 22:46:53.649] [ INFO] [main] [com.luck.com.luck.util.LogFile:50] - setInfo: LastName: Li
+
+[2021-05-02 22:46:53.649] [ INFO] [main] [com.luck.SimpleKvDb:38] - recordLength: 14
+[2021-05-02 22:46:53.665] [ INFO] [main] [com.luck.com.luck.util.LogFile:30] - fileLinesLength: 183
+[2021-05-02 22:47:32.349] [ INFO] [main] [com.luck.com.luck.util.LogFile:54] - setInfo: LastName: Li
+
+[2021-05-02 22:47:32.349] [ INFO] [main] [com.luck.SimpleKvDb:38] - recordLength: 14
+[2021-05-02 22:47:32.349] [ INFO] [main] [com.luck.com.luck.util.LogFile:34] - fileLinesLength: 197
+[2021-05-02 22:52:33.472] [ INFO] [main] [com.luck.com.luck.util.LogFile:67] - setInfo: LastName: Li
+
+[2021-05-02 22:52:33.472] [ INFO] [main] [com.luck.SimpleKvDb:38] - recordLength: 14
+[2021-05-02 23:16:06.882] [ INFO] [main] [com.luck.com.luck.util.Util:11] - getInfo: Lu
+[2021-05-02 23:16:21.101] [ INFO] [main] [com.luck.com.luck.util.LogFile:69] - setInfo: LastName: Li
+
+[2021-05-02 23:16:21.106] [ INFO] [main] [SimpleKvDBImpl:39] - recordLength: 14
+[2021-05-02 23:16:21.196] [ INFO] [main] [com.luck.com.luck.util.Util:11] - getInfo: Lu
+[2021-05-02 23:18:23.277] [ INFO] [main] [com.luck.com.luck.util.Util:11] - getInfo: Lu
+[2021-05-02 23:25:30.012] [ INFO] [main] [com.luck.com.luck.util.Util:11] - getInfo: Li
+[2021-05-02 23:25:59.574] [ INFO] [main] [com.luck.com.luck.util.Util:11] - getInfo: Ruan
+[2021-05-02 23:32:14.987] [ INFO] [main] [com.luck.com.luck.util.LogFile:69] - setInfo: LastName: Li   timeStamp: 2021-05-02 23:32:14.943
+
+[2021-05-02 23:32:15.041] [ INFO] [main] [SimpleKvDBImpl:39] - recordLength: 51
+[2021-05-02 23:32:15.166] [ INFO] [main] [com.luck.com.luck.util.Util:13] - getInfo: Li   timeStamp
+[2021-05-02 23:33:59.170] [ INFO] [main] [com.luck.com.luck.util.LogFile:69] - setInfo: LastName: Li   timeStamp: 2021-05-02 23:33:59.159
+
+[2021-05-02 23:33:59.174] [ INFO] [main] [SimpleKvDBImpl:39] - recordLength: 51
+[2021-05-02 23:33:59.252] [ INFO] [main] [com.luck.com.luck.util.Util:13] - getInfo: Li   timeStamp
+[2021-05-02 23:34:24.407] [ INFO] [main] [com.luck.com.luck.util.LogFile:69] - setInfo: LastName: Li   timeStamp: 2021-05-02 23:34:24.393
+
+[2021-05-02 23:34:24.410] [ INFO] [main] [SimpleKvDBImpl:39] - recordLength: 51
+[2021-05-02 23:34:24.504] [ INFO] [main] [com.luck.com.luck.util.Util:13] - getInfo: Li   
+[2021-05-02 23:49:53.246] [ INFO] [main] [com.luck.com.luck.util.LogFile:69] - setInfo: LastName: Li   timeStamp: 2021-05-02 23:49:53.223
+
+[2021-05-02 23:49:53.272] [ INFO] [main] [com.luck.com.luck.util.Util:13] - getInfo: Li   
+[2021-05-02 23:52:18.939] [ INFO] [main] [com.luck.com.luck.util.LogFile:69] - setInfo: LastName: Li   timeStamp: 2021-05-02 23:52:18.926
+
+[2021-05-02 23:52:18.944] [ INFO] [main] [com.luck.com.luck.util.Util:16] - getInfo: Li   
