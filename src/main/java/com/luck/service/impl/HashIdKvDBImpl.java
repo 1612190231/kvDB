@@ -20,6 +20,11 @@ public class HashIdKvDBImpl implements SimpleKvDB {
     // 索引，value为该key对应的数据在文件中的offset
     private Map<String, Long> idx;
 
+    public HashIdKvDBImpl(LogFile logFile, Map<String, Long> idx){
+        this.curLog = logFile;
+        this.idx = idx;
+    }
+
     public LogFile getCurLog() {
         return curLog;
     }

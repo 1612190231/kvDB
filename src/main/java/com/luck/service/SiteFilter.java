@@ -7,5 +7,4 @@ import java.util.List;
 public interface SiteFilter {
     List<TraceInfo> siteFilter(List<TraceInfo> siteList);
 
-    List<TraceInfo> calculateFilter(List<TraceInfo> siteList);
 }

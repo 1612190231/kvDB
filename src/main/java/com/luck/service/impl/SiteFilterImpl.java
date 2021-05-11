@@ -22,29 +22,23 @@ public class SiteFilterImpl implements SiteFilter {
 
     public List<TraceInfo> siteFilter(List<TraceInfo> siteList){
         List<TraceInfo> traceInfos = new ArrayList<>();
-        for (TraceInfo traceInfo : siteList){
-            if (traceInfo.getLatitude() < 35.2582116 &&
-                    traceInfo.getLatitude() > 35.0582116 &&
-                    traceInfo.getLongitude() < 119.431599 &&
-                    traceInfo.getLongitude() > 119.231599 ){
-                traceInfos.add(traceInfo);
-            }
-        }
-        return traceInfos;
-    }
-
-    public List<TraceInfo> calculateFilter(List<TraceInfo> siteList){
-        List<TraceInfo> traceInfos = new ArrayList<>();
         // 日钢经纬度
         GlobalCoordinates target = new GlobalCoordinates(35.1582116, 119.331599);
-
         for (TraceInfo traceInfo : siteList){
-            GlobalCoordinates source = new GlobalCoordinates(traceInfo.getLatitude(), traceInfo.getLongitude());
-            traceInfo.setDistance(getDistanceMeter(source, target, Ellipsoid.WGS84));
-            if ( traceInfo.getDistance() < 10000) {
-                traceInfos.add(traceInfo);
+            // 第一层过滤：大致过滤
+            if (traceInfo.getLatitude() < 35.2 &&
+                    traceInfo.getLatitude() > 35.0 &&
+                    traceInfo.getLongitude() < 119.4 &&
+                    traceInfo.getLongitude() > 119.2 ){
+                // 第二层过滤：精确计算距离
+                GlobalCoordinates source = new GlobalCoordinates(traceInfo.getLatitude(), traceInfo.getLongitude());
+                traceInfo.setDistance(getDistanceMeter(source, target, Ellipsoid.WGS84));
+                if ( traceInfo.getDistance() < 10000) {
+                    traceInfos.add(traceInfo);
+                }
             }
         }
         return traceInfos;
     }
+
 }
